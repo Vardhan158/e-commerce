@@ -7,7 +7,7 @@ import axios from 'axios';
  */
 const api = axios.create({
   // 🌍 Use Vite environment variable or fallback to localhost
-  baseURL: import.meta.env.VITE_API_URL?.trim() || 'http://localhost:5000/api',
+  baseURL: import.meta.env.VITE_API_URL?.trim() || 'https://e-commerce-zc68.onrender.com/api',
 
   // Ensure cookies & credentials can be passed if needed
   withCredentials: false,
