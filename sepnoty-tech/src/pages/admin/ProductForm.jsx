@@ -6,7 +6,7 @@ import { UploadCloud, Image as ImageIcon, CheckCircle2, Loader2 } from "lucide-r
 const CLOUD_NAME = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME || "";
 const UPLOAD_PRESET = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET || "";
 const API_BASE = (
-  import.meta.env.VITE_API_URL?.trim() || "http://localhost:5000/api"
+  import.meta.env.VITE_API_URL?.trim() || "https://e-commerce-zc68.onrender.com/api"
 ).replace(/\/+$/, "");
 
 export default function ProductForm() {
