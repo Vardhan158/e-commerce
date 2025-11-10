@@ -33,7 +33,7 @@ export default function Login() {
     try {
       const endpoint = isLogin ? "login" : "register";
       const response = await fetch(
-        `http://localhost:5000/api/auth/${endpoint}`,
+        `https://e-commerce-zc68.onrender.com/api/auth/${endpoint}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
