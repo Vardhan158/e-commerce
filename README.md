@@ -66,3 +66,8 @@ Specify the license (e.g., MIT). Replace this line with the chosen license text 
 Maintainer: Your Name — email@example.com
 
 Replace placeholders (project title, repository URL, commands, contact) with project-specific details.
+
+## admin credentials
+
+email- admin@exampl.com
+password- admin123
